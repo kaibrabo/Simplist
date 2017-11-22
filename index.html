@@ -2,7 +2,7 @@
 <html ng-app="to-do">
     <head>
         <meta charset="utf-8">
-        <title>To Do list</title>
+        <title>Simplist</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="main.css" rel="stylesheet" type="text/css" />
     </head>
@@ -17,7 +17,7 @@
 
             <!-- listed tasks -->
             <ul id='to-do-list'>
-                <li ng-repeat='task in todo.tasks track by $index' ng-click="toggle = !toggle" ng-class="{'completed' : toggle}">
+                <li ng-repeat='task in todo.tasks track by $index' ng-click="toggle = !toggle" ng-class="{'completed' : toggle}" class="noselect">
                     {{ task }}
                     <span ng-click='todo.deleteTask($index)'>
                         <i class='glyphicon glyphicon-trash'></i>

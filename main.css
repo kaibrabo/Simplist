@@ -19,7 +19,7 @@ li {
     font-size: 20px;
     font-family: Bradley Hand;
     padding-bottom: 10px;
-    
+
 }
 
 .completed {
@@ -63,4 +63,14 @@ text-align: center;
 outline: none;
 border: 0;
 color: #2980b9;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
