@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+div {
+
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2980b9
+}
+
+li {
+    list-style: none;
+    font-family: Bradley Hand;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.container-fluid {
+    width: 360px;
+    margin: 100px auto;
+}
+
+input {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
