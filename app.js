@@ -14,7 +14,6 @@ function ToDoController() {
 
     // completed task
     this.completedTask = (index) => {
-        console.log(index);
         index.toggle = false;
     };
 
